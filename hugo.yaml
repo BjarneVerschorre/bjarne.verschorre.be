@@ -1,0 +1,9 @@
+baseURL: 'https://bjarne.verschorre.be/'
+languageCode: 'en-us'
+title: 'Bjarne Verschorre'
+enableEmoji: true
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true

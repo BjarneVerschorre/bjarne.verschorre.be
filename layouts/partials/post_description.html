@@ -1,0 +1,10 @@
+<p>{{ .Description }}</p>
+<sub>- Posted on {{ .Date | time.Format ":date_medium" }}
+    {{ with .Params.tags }}
+    | Tags:<span class="tags">
+    {{ range . }}
+        <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">#{{ . }}</a>
+    {{ end }}
+    </span>
+    {{ end }}
+</sub>

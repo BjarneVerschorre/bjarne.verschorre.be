@@ -1,0 +1,17 @@
+{{ define "main" }}
+  <article id="{{.File}}">
+    <h1>{{ .Title }}</h1>
+    {{partial "post_description.html" .}}
+    <hr>
+  </article>
+  {{ .Content }}
+  
+  <section class="navigator">
+      {{ with .Prev }}
+      <a href="{{ .RelPermalink }}">← {{ .Title }}</a>
+      {{ end }}
+      {{ with .Next }}
+      <a href="{{ .RelPermalink }}">{{ .Title }} →</a>
+    </section>
+    {{ end }}
+{{ end }}

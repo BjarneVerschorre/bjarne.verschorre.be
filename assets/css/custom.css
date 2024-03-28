@@ -1,0 +1,52 @@
+header {
+    padding-bottom: 15px;
+    padding-top: 15px;
+    img {
+        height: 30px;
+        width: 30px;
+        margin: 0;
+    }
+}
+
+#friends img {
+    height: 31px;
+    width: 88px;
+    margin-right: 5px;
+}
+
+blockquote {
+    p {
+        margin-bottom: 0;
+        font-style: italic
+    }
+}
+
+article {
+    p {
+        margin-bottom: 5px;
+    }
+
+    sub {
+        display: block;
+        margin-left: 10px;
+    }
+}
+
+section.navigator{
+    a {
+        margin-top: 10px;
+    }
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    hr {
+        margin-bottom: 0;
+    }
+
+    sub {
+        margin-right: 10px;
+        font-style: italic;
+    }
+}
