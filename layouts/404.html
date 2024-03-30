@@ -1,0 +1,16 @@
+{{ define "main" }}
+<h1>You look a bit lost there buckaroo</h1>
+
+<script>
+    // I couldn't find a better way to do this :(
+    // Copilot (the job stealer) couldn't help me 
+
+    const gifAmount = 15;
+    var gifNumber = Math.floor(Math.random() * gifAmount) + 1;
+
+    var gif = document.createElement('img');
+    gif.style.width = '100%';
+    gif.src = '/404_gifs/' + gifNumber + '.gif';
+    document.body.appendChild(gif);
+</script>
+{{ end }}
