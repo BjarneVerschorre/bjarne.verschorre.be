@@ -16,14 +16,13 @@ header {
 
 blockquote {
     p {
-        margin-bottom: 0;
         font-style: italic
     }
 }
 
 article {
     p {
-        margin-bottom: 5px;
+        margin-bottom: 0 !important;
     }
 
     sub {
@@ -48,5 +47,15 @@ footer {
     sub {
         margin-right: 10px;
         font-style: italic;
+    }
+}
+
+main {
+    pre {
+        margin-bottom: 0;
+    }
+    p {
+        margin-bottom: 6px;
+        margin-top: 6px;
     }
 }
