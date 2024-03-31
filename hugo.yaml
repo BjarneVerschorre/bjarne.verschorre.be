@@ -3,6 +3,23 @@ languageCode: 'en-us'
 title: 'Bjarne Verschorre'
 enableEmoji: true
 
+outputs:
+  home:
+  - html
+  section:
+  - rss
+  - html
+  taxonomy:
+  - html
+  term:
+  - html
+
+params:
+  author:
+    email: bjarne.verschorre.be
+    name: Bjarne Verschorre
+
+
 markup:
   goldmark:
     renderer:
