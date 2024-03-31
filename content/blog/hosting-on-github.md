@@ -5,6 +5,8 @@ date: 2024-03-25T21:25:59+01:00
 tags: 
  - github
  - hosting
+ - site
+ - hugo
 draft: false
 ---
 
