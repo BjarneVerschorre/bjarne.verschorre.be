@@ -1,26 +1,5 @@
 {{ define "main" }}
 <h1>😬 Page Not Found</h1>
-<p>But these gifs go hard tho..</p>
-
-<script>
-    // I couldn't find a better way to do this :(
-    // Copilot (the job stealer) couldn't help me 
-
-    const gifAmount = 18;
-    var gifNumber = Math.floor(Math.random() * gifAmount + 1) + 1;
-
-    // Secret gif for lucky people
-    if (gifNumber === gifAmount + 1) {
-        var gifNumber = Math.floor(Math.random() * 1000) + 1;
-        if (gifNumber !== 69) { // nice
-            gifNumber = Math.floor(Math.random() * gifAmount) + 1;
-        }
-    }
-
-    var gif = document.createElement('img');
-    gif.src = `/404_gifs/${gifNumber}.gif`;
-    gif.style.width = '100%';
-
-    document.body.appendChild(gif);
-</script>
+<p>But this gif goes hard tho..</p>
+<script src="/scripts/random_404_gif.js"></script>
 {{ end }}
