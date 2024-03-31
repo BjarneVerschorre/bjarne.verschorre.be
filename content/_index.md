@@ -30,5 +30,5 @@ I've replaced [nano](https://nano-editor.org/) with Neovim to try and use it to 
 ## 📖 Currently Reading
 - [Modern Operating Systems](https://www.goodreads.com/book/show/144716295-modern-operating-systems-global-edition) by Andrew S. Tanenbaum
 
-## 😎 My Frens
+## 🌐 Webmaster Frens
 <a href="https://raccoonbutt.com/" rel="noopener" target="_blank"><img src="https://raccoonbutt.com/static/images/button.gif" alt="Raccoonbutt"></a>
