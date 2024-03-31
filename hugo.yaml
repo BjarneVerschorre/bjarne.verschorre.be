@@ -14,12 +14,6 @@ outputs:
   term:
   - html
 
-params:
-  author:
-    email: bjarne.verschorre.be
-    name: Bjarne Verschorre
-
-
 markup:
   goldmark:
     renderer:
