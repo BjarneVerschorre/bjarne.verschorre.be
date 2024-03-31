@@ -8,6 +8,6 @@ tags:
 title: Hacking My School
 ---
 
-![cat](/images/cat.png)
+![cat](/imgs/cat.png)
 
 thank u.
