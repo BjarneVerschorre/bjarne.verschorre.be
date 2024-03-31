@@ -18,3 +18,7 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+  highlight:
+    style: github-dark
+    codeFences: true
+    guessSyntax: true
