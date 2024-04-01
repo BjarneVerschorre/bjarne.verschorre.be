@@ -8,10 +8,11 @@ header {
     }
 }
 
-#friends img {
+.friend-button {
     height: 31px;
     width: 88px;
     margin-right: 5px;
+    margin-bottom: 0px;
 }
 
 blockquote {
