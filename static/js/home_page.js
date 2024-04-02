@@ -94,7 +94,11 @@ const quotes = [
     {
         "text": "Shrimp what? Have you ever played rugby?",
         "author": "DJ Khalid"
-    }
+    },
+    {
+        "text": "Don’t waste your time chasing butterflies. Mend your garden, and the butterflies will come.",
+        "author": "Mario Quintana"
+    },
 ]
 
 function randomQuote() {
