@@ -1,0 +1,11 @@
+- text: Source Code
+  link: "https://github.com/BjarneVerschorre/bjarne.verschorre.be"
+  emoji: '🛠️'
+
+- text: PGP Key
+  link: "/pgp.txt"
+  emoji: '🔐'
+
+- text: RSS Feed
+  link: "/blog/index.xml"
+  emoji: '📰'
