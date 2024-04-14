@@ -1,6 +1,6 @@
 ---
 title: 'Hosting on GitHub'
-description: "Post about Hosting on GitHub"
+description: "Post about Hosting on GitHub.."
 date: 2024-03-25T21:25:59+01:00
 tags: 
  - github
