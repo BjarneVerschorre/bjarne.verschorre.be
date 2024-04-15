@@ -3,8 +3,8 @@ title: 'Gym Weigh-Ins'
 description: "My weigh-ins at the gym, with body fat and muscle mass percentages.."
 date: 2024-03-26T20:11:54+01:00
 tags: 
-    - "personal"
-    - "gym"
+- personal
+- gym
 draft: false
 ---
 

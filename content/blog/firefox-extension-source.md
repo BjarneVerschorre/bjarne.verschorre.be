@@ -3,7 +3,8 @@ title: 'Firefox Extension Source'
 description: "Quick instructions on how to get the source code of a Firefox extension.."
 date: 2024-04-09T00:47:23+02:00
 tags: 
-    - "firefox"
+- guide
+- firefox
 draft: false
 ---
 

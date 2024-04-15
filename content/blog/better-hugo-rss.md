@@ -3,7 +3,7 @@ title: 'Better Hugo RSS'
 description: "Improving the RSS feed of my Hugo website.."
 date: 2024-03-31T16:11:51+02:00
 tags: 
-    - site
+    - guide
     - hugo
     - rss
 draft: false

@@ -4,6 +4,7 @@
 {{ if eq .Kind "term" }}
 
 <h1>#{{ .Title | strings.ToLower }}</h1>
+<script src="/js/search_bar.js"></script>
 {{ end }}
 
 {{ if eq .Kind "taxonomy" }}

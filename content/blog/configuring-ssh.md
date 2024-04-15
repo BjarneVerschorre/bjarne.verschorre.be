@@ -3,6 +3,7 @@ date: "2024-03-24T23:55:24+01:00"
 description: How I configure and secure my SSH server..
 draft: false
 tags:
+- guide
 - ssh
 - security
 - server

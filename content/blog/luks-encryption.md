@@ -3,8 +3,9 @@ date: "2024-03-24T23:28:30+01:00"
 description: "I encrypt my drives with LUKS and here's how I do it and why you should too.."
 draft: false
 tags:
-- "encryption"
-- "security"
+- guide
+- encryption
+- security
 title: "LUKS Encryption"
 ---
 

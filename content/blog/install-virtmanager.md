@@ -3,8 +3,9 @@ title: 'Setup KVM with Virtmanager'
 description: "Guide to setup KVM on an Ubuntu(-based) system with Virtmanager.."
 date: 2024-04-14T17:01:29+02:00
 tags: 
-    - "linux"
-    - "virtualization"
+- guide
+- linux
+- virtualization
 draft: false
 ---
 

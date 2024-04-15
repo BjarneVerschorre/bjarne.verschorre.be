@@ -3,7 +3,7 @@ date: "2024-03-17T17:30:24+01:00"
 description: Setting up and configuring an SFTP server for a single user and/or a group..
 draft: false
 tags:
-- ssh
+- guide
 - sftp
 - server
 title: Setting up an SFTP server
