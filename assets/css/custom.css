@@ -27,10 +27,14 @@ article {
         margin-bottom: 0 !important;
     }
 
-    sub {
-        display: block;
+    section.post-meta {
         margin-left: 10px;
+        margin-bottom: 0px;
+        sub {
+            margin-right: 10px;
+        }
     }
+
 }
 
 section.navigator{

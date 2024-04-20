@@ -1,10 +1,7 @@
 <p>{{ .Description }}</p>
-<sub>- Posted on {{ .Date | time.Format ":date_medium" }}
-    {{ with .Params.tags }}
-    | Tags:<span class="tags">
-    {{ range . }}
+<section class="post-meta">
+    <sub>📅 {{ .Date | time.Format ":date_medium" }} |</sub><sub>⏲️ {{ .ReadingTime }} min |</sub>{{ with .Params.tags }}<sub>🏷️{{ range . }}
         <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">#{{ . }}</a>
-    {{ end }}
-    </span>
-    {{ end }}
-</sub>
+    {{ end }}</sub>
+    {{ end }}</sub>
+</section>
