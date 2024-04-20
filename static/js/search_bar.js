@@ -15,14 +15,22 @@ function searchPosts() {
   }
 }
 
-window.onload = function () {
-  var input = document.createElement('input');
-  input.setAttribute('type', 'text');
-  input.setAttribute('id', 'searchInput');
-  input.setAttribute('placeholder', '🔎  Search Posts...');
-  input.addEventListener('input', searchPosts);
+var input = document.createElement('input');
+input.setAttribute('type', 'text');
+input.setAttribute('id', 'searchInput');
+input.setAttribute('placeholder', '🔎  Search Posts...');
 
-  var main = document.getElementsByTagName('main')[0];
-  main.insertBefore(input, main.childNodes[0]);
-}
+input.addEventListener('input', searchPosts);
 
+var main = document.getElementsByTagName('main')[0];
+main.insertBefore(input, main.childNodes[0]);
+
+
+document.addEventListener('keydown', function(event) {
+  if (event.key === 'Enter') {
+    var visiblePosts = document.querySelectorAll('article[style="display: block;"]');
+    if (visiblePosts.length > 0) {
+      window.location.href = visiblePosts[0].getElementsByTagName('a')[0].getAttribute('href');
+    }
+  }
+});
