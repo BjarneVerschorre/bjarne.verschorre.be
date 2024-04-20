@@ -1,5 +1,6 @@
 ---
 date: "2023-01-01T08:00:00-07:00"
+description: 👋 My name is Bjarne and this is my website!
 draft: false
 title: Home
 ---
