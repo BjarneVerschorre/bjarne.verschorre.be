@@ -104,10 +104,10 @@ const quotes = [
 function randomQuote() {
     const quote = quotes[Math.floor(Math.random() * quotes.length)];
     const quoteBlock = document.getElementsByTagName("blockquote")[0];
-    quoteBlock.getElementsByTagName("p")[0].innerHTML = `“${quote.text}“`;
+    quoteBlock.getElementsByTagName("p")[0].innerHTML = `“${quote.text}”`;
     quoteBlock.getElementsByTagName("p")[1].innerHTML = `— ${quote.author}`;
 }
 
-window.onload = function() {
+window.onload = function () {
     randomQuote();
 }
