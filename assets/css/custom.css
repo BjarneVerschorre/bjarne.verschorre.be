@@ -1,5 +1,6 @@
 @media (prefers-color-scheme:dark) {
     :root {
+        /* Alternative colours for new.css */
         --nc-bg-2: #1111116c;
         --nc-bg-3: #2222229d;
     }
@@ -8,7 +9,9 @@
 header {
     padding-bottom: 15px;
     padding-top: 15px;
-    img {
+    margin-bottom: 15px;
+
+    img.website-icon {
         height: 30px;
         width: 30px;
         margin: 0;
@@ -16,7 +19,6 @@ header {
 }
 
 body {
-
     background-image: url("/imgs/back.svg");
     background-color: #000000;
 }
@@ -28,21 +30,25 @@ body {
     margin-bottom: 0px;
 }
 
-blockquote {
-    p {
-        font-style: italic
+blockquote.home-quote {
+
+    .home-quote__quote,
+    .home-quote__author {
+        font-style: italic;
     }
-    padding: 1rem 1.5rem 1rem 1.5rem;
+
+    padding: 1rem 1.5rem;
 }
 
-article {
-    p {
-        margin-bottom: 0 !important;
+.post-preview {
+    .post-preview__description {
+        margin-bottom: 0;
     }
 
-    section.post-meta {
+    .post-preview__metadata {
         margin-left: 10px;
         margin-bottom: 0px;
+
         sub {
             margin-right: 10px;
         }
@@ -50,10 +56,8 @@ article {
 
 }
 
-section.navigator{
-    a {
-        margin-top: 10px;
-    }
+.post__navigator {
+    margin-top: 1rem;
     display: flex;
     justify-content: space-between;
 }
@@ -63,7 +67,7 @@ footer {
         margin-bottom: 0;
     }
 
-    sub {
+    sub.footer__item {
         margin-right: 10px;
         font-style: italic;
     }
@@ -73,8 +77,8 @@ main {
     pre {
         margin-bottom: 0;
     }
+
     p {
-        margin-bottom: 6px;
-        margin-top: 6px;
+        margin: 6px 0px;
     }
 }
