@@ -81,7 +81,7 @@ const quotes = [
     },
     {
         "text": "Commas matter.",
-        "author": "Maurits 'De kenner' Bidlot"
+        "author": "Mauritius 'De kenner' Captiosus"
     },
     {
         "text": "Holly Wizard, This shit is excrement.",
