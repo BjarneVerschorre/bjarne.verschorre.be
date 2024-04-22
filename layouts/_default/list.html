@@ -20,17 +20,7 @@
 {{ .Content }}
 
 {{ range .Pages }}
-<article id="{{.File}}">
-
-  {{if eq .Draft true }}
-  <h2>📝 <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-  {{ else }}
-  <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-  {{end}}
-  {{if eq .Type "blog" }}
-  {{partial "post_description.html" .}}
-  {{end}}
-</article>
+  {{partial "post-preview.html" .}}
 {{ end }}
 
 {{ end }}

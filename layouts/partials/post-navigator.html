@@ -1,0 +1,8 @@
+<section class="post__navigator">
+    {{ with .Prev }}
+     <a href="{{ .RelPermalink }}">← {{ .Title }}</a>
+    {{ end }}
+    {{ with .Next }}
+      <a href="{{ .RelPermalink }}">{{ .Title }} →</a>
+    {{ end }}
+</section>
