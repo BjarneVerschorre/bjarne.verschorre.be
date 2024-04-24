@@ -56,6 +56,12 @@ blockquote.home-quote {
 
 }
 
+.lastest-post {
+    .post-preview__title {
+        padding-top: 2px;
+    }
+}
+
 .post__navigator {
     margin-top: 1rem;
     display: flex;

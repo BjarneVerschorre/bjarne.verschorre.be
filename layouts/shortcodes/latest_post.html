@@ -1,0 +1,6 @@
+{{ with (index (where site.RegularPages "Type" "blog").ByDate.Reverse 0) }}
+<article class="post-preview lastest-post" id="{{.File}}">
+    <h3 class="post-preview__title"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h3>
+    {{partial "post_description.html" .}}
+</article>
+{{ end }}

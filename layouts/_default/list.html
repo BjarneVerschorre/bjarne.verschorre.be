@@ -20,7 +20,16 @@
 {{ .Content }}
 
 {{ range .Pages }}
-  {{partial "post-preview.html" .}}
+  <article class="post-preview" id="{{.File}}">
+    
+    {{if eq .Draft true }}
+      <h2 class="post-preview__title">📝 <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+    {{ else }}
+      <h2 class="post-preview__title"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+    {{end}}
+
+    {{partial "post_description.html" .}}
+  </article>
 {{ end }}
 
 {{ end }}
