@@ -49,7 +49,7 @@ blockquote.home-quote {
         margin-left: 10px;
         margin-bottom: 0px;
 
-        sub {
+        sup {
             margin-right: 10px;
         }
     }
