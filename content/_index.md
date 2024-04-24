@@ -11,7 +11,7 @@ My name is Bjarne, a 19 year old programmer and cybersecurity enthusiast.
 I've build this website to share my knowledge and projects with you and learn web development while doing so. This website is made with a minimalistic design, so it's easy to read and navigate.
 
 ## 📹 Featured Video
-{{< youtube bdKZVIGRAKQ>}}
+- [Get a Website Now! Don't be a Web Peasant!](https://invidious.fdn.fr/watch?v=bdKZVIGRAKQ) <sup>(Invidious)</sup>
 
 ## 📖 Currently Reading
 - [Modern Operating Systems](https://www.goodreads.com/book/show/144716295-modern-operating-systems-global-edition) by Andrew S. Tanenbaum
