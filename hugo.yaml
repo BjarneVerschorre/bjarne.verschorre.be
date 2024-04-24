@@ -3,6 +3,9 @@ languageCode: 'en-us'
 title: 'Bjarne Verschorre'
 enableEmoji: true
 
+author:
+  email: 'Bjarne Verschorre'
+
 outputs:
   home:
   - html
