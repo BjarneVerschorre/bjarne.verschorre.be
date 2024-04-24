@@ -14,7 +14,7 @@ I've build this website to share my knowledge and projects with you and learn we
 {{< latest_post >}}
 
 ## 📹 Featured Video
-- [Get a Website Now! Don't be a Web Peasant!](https://invidious.fdn.fr/watch?v=bdKZVIGRAKQ) <sup>(Invidious)</sup>
+- [Get a Website Now! Don't be a Web Peasant!](https://invidious.fdn.fr/watch?v=bdKZVIGRAKQ) <small>(Invidious)</small>
 
 ## 📖 Currently Reading
 - [Modern Operating Systems](https://www.goodreads.com/book/show/144716295-modern-operating-systems-global-edition) by Andrew S. Tanenbaum
