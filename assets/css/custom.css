@@ -23,6 +23,13 @@ body {
     background-color: #000000;
 }
 
+ol {
+    margin-top: 1rem;
+    li p {
+        margin-top: 18px;
+    }
+}
+
 .friend-button {
     height: 31px;
     width: 88px;
