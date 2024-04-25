@@ -1,6 +1,7 @@
 ---
 date: "2024-03-24T23:28:30+01:00"
-description: "I encrypt my drives with LUKS and here's how I do it and why you should too.."
+lastmod: "2024-04-26T00:05:33+01:00"
+description: "Step for step guide on how to encrypt and mount partitions with LUKS.."
 draft: false
 tags:
 - guide
@@ -9,28 +10,44 @@ tags:
 title: "LUKS Encryption"
 ---
 
-Doing it though a GUI is too easy, so I'm not going to cover that.
+Doing it through an GUI is simple, these steps are for the terminal.
 
 ## Why encrypt your drives?
 - **Privacy**: If someone steals your computer, they can't access your data.
 - **Security**: If someone steals your computer, they can't access your data.
 
-## How to encrypt your drives
-You're going to need a disk with a parition on it you want to encrypt.
+## Encrypting a partition
+You can get the device name of the partition you want to encrypt by running `lsblk` or `fdisk -l`.
 
-- `$ sudo cryptsetup luksFormat /dev/sdX1`
-- `$ sudo cryptsetup open /dev/sdX1 <name>`
-  - Replace `<name>` with a name for the partition
+1. Format the partition with LUKS:
+   - `$ sudo cryptsetup luksFormat /dev/sdX1`
+     - Replace `/dev/sdX1` with the device name of the partition you want to encrypt.
 
-**Only run this command to format the partition if you're doing this for the first time.**
+1. Open the encrypted partition:
+   - `$ sudo cryptsetup open /dev/sdX1 <name>`
+     - Replace `<name>` with a name for the partition *(eg enc_drive)*.
 
-`$ sudo mkfs.ext4 /dev/mapper/<name>`
+1. Create a filesystem on the encrypted partition:
+   - `$ sudo mkfs.ext4 /dev/mapper/<name>`
 
-- Create a directory to mount the volume:
-  - `$ sudo mkdir /mnt/<name>/`
-- Finally mount the volume to the directory:
-  - `$ sudo mount /dev/mapper/<name> /mnt/<name>/`
+
+## Mounting an encrypted partition
+You are probaly going to want to mount the encrypted partition after you've encrypted it.
+
+1. Open the encrypted partition (if it's not already open):
+   - `$ sudo cryptsetup open /dev/sdX1 <name>`
+     - Replace `<name>` with the name of the encrypted partition.
+
+1. Create a mounting point and mount the encrypted partition:
+   - `$ sudo mkdir /mnt/<name>/`
+   - `$ sudo mount /dev/mapper/<name> /mnt/<name>/`
+
 
 ## Unmounting the drive
-- `$ sudo umount /mnt/<name>/`
-- `$ sudo cryptsetup close <name>`
+It's different from unmounting a regular partition. You need to unmount the partition and close the encrypted partition.
+
+1. Unmount the partition:
+   - `$ sudo umount /mnt/<name>/`
+
+1. Close the encrypted partition:
+    - `$ sudo cryptsetup close <name>`
