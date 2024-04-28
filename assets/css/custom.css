@@ -23,6 +23,12 @@ body {
     background-color: #000000;
 }
 
+img.gif-404 {
+    margin-top: 1rem;
+    display: block;
+    width: 100%;
+}
+
 ol {
     margin-top: 1rem;
     li p {
