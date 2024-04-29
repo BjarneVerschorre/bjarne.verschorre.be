@@ -66,6 +66,10 @@ blockquote.home-quote {
         margin: 3px 0px;
     }
 
+    a.post-preview__tag {
+        margin-right: 5px;
+    }
+
     .post-preview__metadata {
         margin-left: 10px;
         margin-bottom: 0px;
