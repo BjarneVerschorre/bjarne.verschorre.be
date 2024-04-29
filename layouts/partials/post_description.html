@@ -1,4 +1,4 @@
 <p class="post-preview__description">{{ .Description }}</p>
 <section class="post-preview__metadata">
-    <small class="post-preview__pub-date">📅 {{ .Date | time.Format ":date_medium" }} |</small><small class="post-preview__readingtime">⏲️ {{ .ReadingTime }} min |</small>{{ with .Params.tags }}<small class="post-preview__tags">🏷️ {{ range . }}<a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}" class="post-preview__tag">#{{ . }}</a> {{ end }}</small>{{ end }}</small>
+    <small>📅 {{ .Date | time.Format ":date_medium" }} |</small><small>⏲️ {{ .ReadingTime }} min |</small>{{ with .Params.tags }}<small>🏷️ {{ range . }}<a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">#{{ . }}</a> {{ end }}</small>{{ end }}</small>
 </section>
