@@ -70,7 +70,7 @@ blockquote.home-quote {
         margin-left: 10px;
         margin-bottom: 0px;
 
-        sup {
+        small {
             margin-right: 10px;
         }
     }
