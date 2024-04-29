@@ -1,5 +1,5 @@
 // I couldn't find a better way to do this :(
-// Copilot (the job stealer) couldn"t help me 
+// Copilot (the job stealer) couldn't help me 
 
 const GIF_AMOUNT = 28;
 
