@@ -71,6 +71,7 @@ blockquote.home-quote {
     }
 
     .post-preview__metadata {
+        line-height: 18px;
         margin-left: 10px;
         margin-bottom: 0px;
 
