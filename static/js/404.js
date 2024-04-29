@@ -137,7 +137,7 @@ function openRandomWebsite() {
 window.onload = function() {
     var buttonSection = document.getElementById("buttons");
     buttonSection.innerHTML = `
-        <button onclick="refreshGif()">Refresh</button>
+        <button onclick="refreshGif()">Refresh GIF</button>
         <button onclick="openRandomWebsite()">Random Website↗</button>
     `;
     
