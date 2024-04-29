@@ -134,4 +134,12 @@ function openRandomWebsite() {
     window.open(RANDOM_WEBSITES[getRandomInt(RANDOM_WEBSITES.length) - 1], '_blank');
 }
 
-refreshGif()
+window.onload = function() {
+    var buttonSection = document.getElementById("buttons");
+    buttonSection.innerHTML = `
+        <button onclick="refreshGif()">Refresh</button>
+        <button onclick="openRandomWebsite()">Random Website↗</button>
+    `;
+    
+    refreshGif();
+}
