@@ -58,6 +58,14 @@ blockquote.home-quote {
         margin-bottom: 0;
     }
 
+    .post-preview__title {
+        margin-bottom: 0;
+    }
+
+    .post-preview__description {
+        margin: 3px 0px;
+    }
+
     .post-preview__metadata {
         margin-left: 10px;
         margin-bottom: 0px;
