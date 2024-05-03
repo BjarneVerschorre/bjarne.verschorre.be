@@ -2,6 +2,10 @@
   link: "https://github.com/BjarneVerschorre/bjarne.verschorre.be"
   emoji: '🛠️'
 
+- text: Analytics
+  link: "https://dashboard.simpleanalytics.com/bjarne.verschorre.be"
+  emoji: '📊'
+
 - text: PGP Key
   link: "/pgp.txt"
   emoji: '🔐'
