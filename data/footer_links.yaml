@@ -9,7 +9,3 @@
 - text: PGP Key
   link: "/pgp.txt"
   emoji: '🔐'
-
-- text: RSS Feed
-  link: "/blog/index.xml"
-  emoji: '📰'
