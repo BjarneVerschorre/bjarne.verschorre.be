@@ -13,9 +13,9 @@
 {{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Bjarne's Blog</title>
-    <link>https://bjarne.verschorre.be/blog/</link>
-    <description>A list of my blog posts where I keep my notes and talk about tech and security</description>
+    <title>Bjarne's {{.Title}}</title>
+    <link>{{ replace .Permalink "/index.xml" "/"}}</link>
+    <description>{{ .Params.Description}}</description>
     <image>
       <url>http://bjarne.verschorre.be/favicon.ico</url>
       <title>bjarne.verschorre.be</title>
