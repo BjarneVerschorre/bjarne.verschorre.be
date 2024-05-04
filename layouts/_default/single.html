@@ -4,7 +4,7 @@
     {{partial "post_description.html" .}}
   <hr>
   {{ with .Params.external_url}}
-    🔗 <a class="post__external_url" href="{{.}}">{{.}}</a>
+    🔗 <a class="post__external_url" href="{{.}}" target="_blank">{{.}}</a>
   {{ end }}
   {{ .Content }}
   {{partial "post-navigator.html" .}}
