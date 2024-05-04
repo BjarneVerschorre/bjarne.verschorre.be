@@ -3,13 +3,11 @@ title: 'Daily Bugle'
 description: "Compromise a Joomla CMS account via SQLi, practise cracking hashes and escalate your privileges by taking advantage of yum."
 date: 2024-05-04T17:10:10+02:00
 tags: 
-    - "thm"
+    - "tryhackme"
     - "hard"
 external_url: "https://tryhackme.com/r/room/dailybugle"
 draft: false
 ---
-
-<img class="write-up__banner" src="/write-up/H98yNCQ.png" alt="Room Banner">
 
 ## Questions
 1. Access the web server, who robbed the bank?

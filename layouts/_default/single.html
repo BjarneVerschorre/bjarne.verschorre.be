@@ -3,8 +3,10 @@
     <h2 class="post-preview__title"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
     {{partial "post_description.html" .}}
   <hr>
-  {{ with .Params.external_url}}
-    🔗 <a class="post__external_url" href="{{.}}" target="_blank">{{.}}</a>
+  {{ if eq .Type "write-up"}}
+  🔗 <a class="post__external_url" href="{{.Params.external_url}}" target="_blank">{{.Params.external_url}}</a>
+    <img class="write-up__banner" src="/write-up/{{.File}}.png" alt="Room Banner">
+
   {{ end }}
   {{ .Content }}
   {{partial "post-navigator.html" .}}
