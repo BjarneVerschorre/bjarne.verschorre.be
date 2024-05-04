@@ -4,7 +4,6 @@
 {{ if eq .Kind "term" }}
 
 <h1>#{{ .Title | strings.ToLower }}</h1>
-<script src="/js/search_bar.js"></script>
 {{ end }}
 
 {{ if eq .Kind "taxonomy" }}
@@ -17,7 +16,9 @@
   {{end}}
 </ul>
 {{ else }}
+
 {{ .Content }}
+<script src="/js/search_bar.js"></script>
 
 {{ range .Pages }}
   <article class="post-preview" id="{{.File}}">
