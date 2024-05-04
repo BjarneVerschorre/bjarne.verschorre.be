@@ -61,8 +61,9 @@ For a reverse shell I used [pentestmonky](https://github.com/pentestmonkey/)'s [
 
 I stablized the shell by doing
 1. `$ python -c 'import pty;pty.spawn("/bin/bash")'` (python3 wasn't available on the box)
-2. `$ stty raw -echo; fg`
-3. `$ export TERM=xterm`
+2. `CTRL + Z`
+3. `$ stty raw -echo; fg`
+4. `$ export TERM=xterm`
 
 Which gave me a better and more useable shell.
 
