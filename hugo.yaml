@@ -17,6 +17,23 @@ outputs:
   term:
   - html
 
+menus:
+  main:
+    - name: Home
+      pageRef: /
+      weight: 10
+
+    - name: Blog
+      pageRef: /blog/
+      weight: 20
+
+    - name: Write-ups
+      pageRef: /write-up/
+      weight: 30
+
+    - name: GitHub↗
+      url: "https://github.com/BjarneVerschorre"
+
 markup:
   goldmark:
     renderer:

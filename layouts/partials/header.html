@@ -2,8 +2,15 @@
     <img src="/favicon.ico" alt="icon" class="website-icon">
     {{ site.Title }}
 </h1>
+{{ with site.Menus.main }}
 <nav>
-    <a href="/">Home</a> /
-    <a href="/blog/">Blog</a> /
-    <a href="https://github.com/BjarneVerschorre" target="_blank" rel="noopener noreferrer">GitHub↗</a>
+    {{ range . }}
+        {{ if $.IsMenuCurrent .Menu . }}
+            <a class="navbar__item navbar__item--active" href="{{ .URL }}">{{ .Name }}</a>
+        {{ else }}
+            <a class="navbar__item" href="{{ .URL }}">{{ .Name }}</a>
+        {{ end }}
+        /
+    {{ end }}
 </nav>
+{{ end }}
