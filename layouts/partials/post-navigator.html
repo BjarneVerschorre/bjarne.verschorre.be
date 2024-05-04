@@ -1,8 +1,14 @@
+{{ $current_type := .Type}}
+
 <section class="post__navigator">
     {{ with .Prev }}
-     <a href="{{ .RelPermalink }}">← {{ .Title }}</a>
+      {{ if eq .Type $current_type }}
+        <a href="{{ .RelPermalink }}">← {{ .Title }}</a>
+      {{ end }}
     {{ end }}
     {{ with .Next }}
-      <a href="{{ .RelPermalink }}">{{ .Title }} →</a>
+      {{ if eq .Type $current_type }}
+        <a href="{{ .RelPermalink }}">{{ .Title }} →</a>
+      {{ end }}
     {{ end }}
 </section>
