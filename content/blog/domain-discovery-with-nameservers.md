@@ -28,7 +28,7 @@ Take a note of those nameservers.
 
 ### 2. Using DNSlytics to find other domains
 Go to [DNSlytics](https://search.dnslytics.com/), set the search from `<all>` to `domains` and type in the following query:
-`ns:XXX.ns.cloudflare.com and ns:YYY.ns.cloudflare.com` and hit search.
+`NS:XXX.ns.cloudflare.com AND NS:YYY.ns.cloudflare.com` and hit search.
 
 This will return all domains that are using the same nameservers as the domain you are investigating.
 
