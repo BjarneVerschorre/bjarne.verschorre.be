@@ -1,2 +1,2 @@
-<hr>
+<hr class="footer__hr">
 {{ range .Site.Data.footer_links }}<sub class="footer__item">{{.emoji}} <a href="{{ .link }}" target="_blank" rel="noopener">{{ .text }}</a></sub>{{ end }}{{ if eq .Kind "section"}}<sub class="footer__item">📰 <a href="index.xml">RSS Feed</a>{{ end }}
