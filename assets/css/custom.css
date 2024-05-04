@@ -18,6 +18,10 @@ img.website-icon {
     margin: 0;
 }
 
+.write-up__banner {
+    margin-bottom: 16px;
+}
+
 .navbar__item--active {
     color: var(--nc-text);
     text-decoration: none;
