@@ -10,21 +10,19 @@ header {
     padding-bottom: 15px;
     padding-top: 15px;
     margin-bottom: 15px;
-
-    img.website-icon {
-        height: 30px !important;
-        width: 30px !important;
-        margin: 0;
-    }
 }
 
-nav {
-    .navbar__item--active {
-        color: var(--nc-text);
-        text-decoration: none;
-    }
-    
+img.website-icon {
+    height: 30px !important;
+    width: 30px !important;
+    margin: 0;
 }
+
+.navbar__item--active {
+    color: var(--nc-text);
+    text-decoration: none;
+}
+
 body {
     background-image: url("/imgs/back.svg");
     background-color: #000000;
@@ -42,9 +40,10 @@ img.gif-404 {
 
 ol {
     margin-top: 1rem;
-    li p {
-        margin-top: 18px;
-    }
+}
+
+ol li p {
+    margin-top: 18px;
 }
 
 .friend-button {
@@ -54,43 +53,39 @@ ol {
     margin-bottom: 0px;
 }
 
+.home-quote__quote,
+.home-quote__author {
+    font-style: italic;
+}
+
 blockquote.home-quote {
-
-    .home-quote__quote,
-    .home-quote__author {
-        font-style: italic;
-    }
-
     padding: 1rem 1.5rem;
 }
 
-.post-preview {
-    .post-preview__description {
-        margin-bottom: 0;
-    }
+.post-preview__description {
+    margin-bottom: 0;
+}
 
-    .post-preview__title {
-        margin-bottom: 0;
-    }
+.post-preview__title {
+    margin-bottom: 0;
+}
 
-    .post-preview__description {
-        margin: 3px 0px;
-    }
+.post-preview__description {
+    margin: 3px 0px;
+}
 
-    a.post-preview__tag {
-        margin-right: 5px;
-    }
+a.post-preview__tag {
+    margin-right: 5px;
+}
 
-    .post-preview__metadata {
-        line-height: 18px;
-        margin-left: 10px;
-        margin-bottom: 0px;
+.post-preview__metadata {
+    line-height: 18px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+}
 
-        small {
-            margin-right: 10px;
-        }
-    }
-
+.post-preview__metadata small {
+    margin-right: 10px;
 }
 
 .lastest-post {
@@ -110,23 +105,19 @@ blockquote.home-quote {
     justify-content: space-between;
 }
 
-footer {
-    hr {
-        margin-bottom: 0;
-    }
-
-    sub.footer__item {
-        margin-right: 10px;
-        font-style: italic;
-    }
+hr.footer__hr {
+    margin-bottom: 0;
 }
 
-main {
-    pre {
-        margin-bottom: 0;
-    }
+sub.footer__item {
+    margin-right: 10px;
+    font-style: italic;
+}
 
-    p {
-        margin: 6px 0px;
-    }
+main pre {
+    margin-bottom: 0;
+}
+
+main p {
+    margin: 6px 0px;
 }
