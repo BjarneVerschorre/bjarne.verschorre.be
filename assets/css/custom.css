@@ -18,9 +18,20 @@ header {
     }
 }
 
+nav {
+    .navbar__item--active {
+        color: var(--nc-text);
+        text-decoration: none;
+    }
+    
+}
 body {
     background-image: url("/imgs/back.svg");
     background-color: #000000;
+}
+
+code {
+    display: inline-block;
 }
 
 img.gif-404 {
@@ -86,6 +97,11 @@ blockquote.home-quote {
     .post-preview__title {
         padding-top: 2px;
     }
+}
+
+.post__external_url {
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .post__navigator {
