@@ -99,6 +99,10 @@ const quotes = [
         "text": "Don’t waste your time chasing butterflies. Mend your garden, and the butterflies will come.",
         "author": "Mario Quintana"
     },
+    {
+        "text": "One for the money, two for the better green, 3,4-Methylenedioxymethamphetamine",
+        "author": "MF DOOM"
+    },
 ]
 
 function randomQuote() {
