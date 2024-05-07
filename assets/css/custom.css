@@ -16,6 +16,7 @@ img.website-icon {
     height: 30px !important;
     width: 30px !important;
     margin: 0;
+    display: inline-block;
 }
 
 .write-up__banner {
@@ -42,6 +43,12 @@ img.gif-404 {
     width: 100%;
 }
 
+img {
+    display: flex;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
 ol {
     margin-top: 1rem;
 }
@@ -62,8 +69,23 @@ ol li p {
     font-style: italic;
 }
 
+main p {
+    margin: 6px 0px;
+}
+
+blockquote {
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+blockquote p {
+    margin-top: 0px;
+}
+
 blockquote.home-quote {
     padding: 1rem 1.5rem;
+    margin-top: 0px;
+    margin-bottom: 1rem;
 }
 
 .post-preview__description {
@@ -120,8 +142,4 @@ sub.footer__item {
 
 main pre {
     margin-bottom: 0;
-}
-
-main p {
-    margin: 6px 0px;
 }
