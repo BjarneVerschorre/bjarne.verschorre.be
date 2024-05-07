@@ -5,7 +5,7 @@ date: 2024-05-06T23:08:11+02:00
 tags: 
     - "tryhackme"
     - "easy"
-draft: true
+draft: false
 external_url: "https://tryhackme.com/r/room/hackervshacker"
 ---
 
