@@ -73,6 +73,10 @@ main p {
     margin: 6px 0px;
 }
 
+span.hint {
+    text-decoration: underline dotted;
+}
+
 blockquote {
     margin-top: 6px;
     margin-bottom: 6px;
