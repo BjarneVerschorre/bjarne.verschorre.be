@@ -18,6 +18,7 @@ I've build this website to share my knowledge and projects with you and learn we
 
 ## 📖 Currently Reading
 - [Modern Operating Systems](https://annas-archive.org/md5/4fe49ecd2775aa11ebdd7ceb68ee47ad) by Andrew S. Tanenbaum
+- [Backup & Recovery](https://annas-archive.org/md5/ccfda0790dbcf9024b1fd09448be2695) by Preston W. Curtis
 
 ## 🌐 Webmaster Frens
 <a href="https://raccoonbutt.com/" rel="noopener" target="_blank"><img class="friend-button" src="/imgs/raccoon.gif" alt="Raccoonbutt"></a>
