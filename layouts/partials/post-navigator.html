@@ -1,14 +1,11 @@
-{{ $current_type := .Type}}
+{{ $pages := where .Site.RegularPages.ByDate "Section" .Type }}
 
 <section class="post__navigator">
-    {{ with .Prev }}
-      {{ if eq .Type $current_type }}
-        <a href="{{ .RelPermalink }}">← {{ .Title }}</a>
-      {{ end }}
-    {{ end }}
-    {{ with .Next }}
-      {{ if eq .Type $current_type }}
-        <a href="{{ .RelPermalink }}">{{ .Title }} →</a>
-      {{ end }}
-    {{ end }}
+  {{ with $pages.Next . }}
+    <a href="{{ .RelPermalink }}">← {{ .Title }}</a>
+  {{ end }}
+
+  {{ with $pages.Prev . }}
+    <a href="{{ .RelPermalink }}">{{ .Title }} →</a>
+  {{ end }}
 </section>
