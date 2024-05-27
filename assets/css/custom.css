@@ -1,9 +1,14 @@
-@media (prefers-color-scheme:dark) {
-    :root {
-        /* Alternative colours for new.css */
-        --nc-bg-2: #1111116c;
-        --nc-bg-3: #2222229d;
-    }
+
+:root {
+    /* Alternative colours for new.css */
+    --nc-bg-2:  #1111116c;
+    --nc-bg-3:  #2222229d;
+    --nc-tx-1:  #ffffff;
+    --nc-tx-2:  #eeeeee;
+    --nc-lk-1:  #3291FF;
+    --nc-lk-2:  #0070F3;
+    --nc-ac-1:  #7928CA;
+    --nc-ac-tx: #FFFFFF;
 }
 
 header {
