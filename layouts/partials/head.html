@@ -2,6 +2,7 @@
 <meta name="viewport" content="width=device-width">
 <meta name="theme-color" content="#000000">
 <meta name="description" content="{{ .Description }}">
+<meta name="darkreader-lock">
 <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title site.Title }}{{ end }}</title>
 {{ with .OutputFormats.Get "rss" -}}
   {{ printf `<link rel=%q type=%q href=%q title=%q>` .Rel .MediaType.Type .Permalink site.Title | safeHTML }}
